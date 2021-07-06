@@ -1,0 +1,50 @@
+/* 
+  FaceTec.strings
+  Pods
+
+  Created by Daniel Acosta on 29/06/21.
+  
+*/
+"FaceTec_accessibility_cancel_button" = "Cancelar";
+"FaceTec_accessibility_torch_button" = "Prender Luz";
+
+"FaceTec_action_ok" = "Aceptar";
+"FaceTec_action_im_ready" = "Estoy listo";
+"FaceTec_action_select_id_card" = "Foto Id";
+"FaceTec_action_select_passport" = "Foto Pasaporte";
+"FaceTec_action_take_photo" = "Tomar foto";
+"FaceTec_action_retake_photo" = "Tomar de nuevo";
+"FaceTec_action_accept_photo" = "Aceptar";
+
+"FaceTec_camera_permission_header" = "Habilitar cámara";
+"FaceTec_camera_permission_message_enroll" = "Favor\de habilitar la cámara frontal.";
+"FaceTec_camera_permission_message_auth" = "Los permisos de la cámara están deshabilitados";
+"FaceTec_camera_permission_enable_camera" = "HABILITAR CAMARA";
+"FaceTec_camera_permission_launch_settings" = "CONFIGURACIONES";
+
+
+"FaceTec_feedback_center_face" = "Centra tu rostro";
+"FaceTec_feedback_face_not_found" = "Enfoca tu rostro";
+"FaceTec_feedback_face_not_looking_straight_ahead" = "Mira al frente";
+"FaceTec_feedback_face_not_upright" = "Manten tu cabeza recta";
+"FaceTec_feedback_hold_steady" = "No te muevas";
+"FaceTec_feedback_move_phone_away" = "Aléjate";
+"FaceTec_feedback_move_phone_closer" = "Acércate";
+"FaceTec_feedback_move_phone_even_closer" = "Un poco más";
+
+
+"FaceTec_instructions_header_ready" = "Prepárate para\ntu toma de selfie";
+"FaceTec_instructions_message_ready" = "Por favor enfoca tu rostro\nen el óvalo pequeño, después en el óvalo grande";
+
+"FaceTec_result_facescan_upload_message" = "Subiendo\nEncriptado\nModelo 3D";
+"FaceTec_result_success_message" = "Confirmado";
+"FaceTec_result_idscan_upload_message" = "Uploading\nEncrypted\nID Scan";
+"FaceTec_result_idscan_unsuccess_message" = "ID Photo\nDid Not Match\nUser's Face";
+
+"FaceTec_retry_header" = "Intentemos de nuevo";
+"FaceTec_retry_subheader_message" = "Pero primero, veamos tu foto y validemos un ambiente correcto";
+"FaceTec_retry_instruction_message_1" = "Expresión normal, no sonreír";
+"FaceTec_retry_instruction_message_2" = "Sin brillo o luz extrema";
+"FaceTec_retry_instruction_message_3" = "";
+"FaceTec_retry_your_image_label" = "Tu selfie";
+"FaceTec_retry_ideal_image_label" = "Ejemplo ideal";

@@ -1,0 +1,51 @@
+/* 
+  FaceTec.strings
+  Pods
+
+  Created by Daniel Acosta on 29/06/21.
+  
+*/
+"FaceTec_accessibility_cancel_button" = "Cancel";
+"FaceTec_accessibility_torch_button" = "Turn on the lights";
+
+"FaceTec_action_ok" = "Accept";
+"FaceTec_action_im_ready" = "I'm ready";
+"FaceTec_action_select_id_card" = "Id Photo";
+"FaceTec_action_select_passport" = "Passport Photo";
+"FaceTec_action_take_photo" = "Take photo";
+"FaceTec_action_retake_photo" = "Take again";
+"FaceTec_action_accept_photo" = "Accept";
+
+"FaceTec_camera_permission_header" = "Enable camera";
+"FaceTec_camera_permission_message_enroll" = "Please enable the front camera";
+"FaceTec_camera_permission_message_auth" = "Camera permission denied";
+//"Your camera permissions are disabled. Tap below to edit your settings.";
+"FaceTec_camera_permission_enable_camera" = "ENABLE CAMERA";
+"FaceTec_camera_permission_launch_settings" = "CONFIGURATIONS";
+
+
+"FaceTec_feedback_center_face" = "Center Your Face";
+"FaceTec_feedback_face_not_found" = "Frame Your Face";
+"FaceTec_feedback_face_not_looking_straight_ahead" = "Look Straight Ahead";
+"FaceTec_feedback_face_not_upright" = "Hold Your Head Straight";
+"FaceTec_feedback_hold_steady" = "Hold Steady";
+"FaceTec_feedback_move_phone_away" = "Move Away";
+"FaceTec_feedback_move_phone_closer" = "Move Closer";
+"FaceTec_feedback_move_phone_even_closer" = "Even Closer";
+
+
+"FaceTec_instructions_header_ready" = "Get Ready For";
+"FaceTec_instructions_message_ready" = "Frame Your Face in the Oval,";
+
+"FaceTec_result_facescan_upload_message" = "Uploading\nEncrypted\n3D FaceScan";
+"FaceTec_result_success_message" = "Success";
+"FaceTec_result_idscan_upload_message" = "Uploading\nEncrypted\nID Scan";
+"FaceTec_result_idscan_unsuccess_message" = "ID Photo\nDid Not Match\nUser's Face";
+
+"FaceTec_retry_header" = "Let's try that again...";
+"FaceTec_retry_subheader_message" = "We need a clearer video selfie.";
+"FaceTec_retry_instruction_message_1" = "Neutral Expression, No Smiling";
+"FaceTec_retry_instruction_message_2" = "No Glare or Extreme Lighting";
+"FaceTec_retry_instruction_message_3" = "Too Blurry, Clean Your Camera";
+"FaceTec_retry_your_image_label" = "Your Selfie";
+"FaceTec_retry_ideal_image_label" = "Ideal Pose";
