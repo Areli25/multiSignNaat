@@ -73,6 +73,61 @@ class ViewController: UIViewController {
         fadMultiConstants.acIdEndpoint = "https://services.assureid.net"
         fadMultiConstants.acAcasEndpoint = "https://acas.acuant.net"
         fadMultiConstants.acOzoneEndpoint = "https://ozone.acuant.net"
+        //Comparation ID vs Face
+        fadMultiConstants.comparationIDFaceMaxAttempts = 3
+        
+        
+        //Custom View Controllers
+        let story = UIStoryboard(name: "CustomViews", bundle: nil)
+        //Signer
+        let signerVC = story.instantiateViewController(withIdentifier: "customSigner") as? CustomSignerUIObjects
+        fadMultiConstants.customSignerObjects = signerVC
+        //Pivacy
+        let privacyVC = story.instantiateViewController(withIdentifier: "customPrivacy") as? CustomPrivacyUIObjects
+        fadMultiConstants.customPrivacyObjects = privacyVC
+//        //Steps
+        let stepsVC = story.instantiateViewController(withIdentifier: "customSteps") as? CustomStepsUIObjects
+        fadMultiConstants.customStepsObjects = stepsVC
+
+        let idInstructionsVC = story.instantiateViewController(withIdentifier: "customIdInstructions") as? CustomIdInstructionsUIObjects
+        fadMultiConstants.customIdInstructionsObjects = idInstructionsVC
+//
+        let instructionsPhotoVC = story.instantiateViewController(withIdentifier: "customInstructionsPhoto") as? CustomInstructionsPhotoUIObjects
+        fadMultiConstants.customInstructionsPhotoObjects = instructionsPhotoVC
+
+        let instructionsDocumentVC = story.instantiateViewController(withIdentifier: "customInstructionsDocument") as? CustomInstructionsDocumentUIObjects
+        fadMultiConstants.customInstructionsDocumentObjects = instructionsDocumentVC
+
+        let documentVC = story.instantiateViewController(withIdentifier: "customDocument") as? CustomDocumentUIObjects
+        fadMultiConstants.customDocumentObjects = documentVC
+
+        let customScrollInstructions = story.instantiateViewController(withIdentifier: "customScrollInstructions") as? CustomScrollInstructionsUIObjects
+        fadMultiConstants.customScrollInstructionsObjects = customScrollInstructions
+
+        let customCheckData = story.instantiateViewController(withIdentifier: "customCheckData") as? CustomCheckDataUIObjects
+        fadMultiConstants.customCheckDataObjects = customCheckData
+
+        let customConfirm = story.instantiateViewController(withIdentifier: "customConfirm") as? CustomConfirmUIObjects
+        fadMultiConstants.customConfirmObjects = customConfirm
+
+        let customScanQR = story.instantiateViewController(withIdentifier: "customScanQR") as? CustomScanQRUIObjects
+        fadMultiConstants.customScanQRObjects = customScanQR
+
+        let customSelfiePreview = story.instantiateViewController(withIdentifier: "selfiePreview") as? CustomSelfiePreviewUIObjects
+        fadMultiConstants.customSelfiePreviewObjects = customSelfiePreview
+
+        let customIdCapturePreview = story.instantiateViewController(withIdentifier: "idCapturePreview") as? CustomIdCapturePreviewViewUIObjects
+        fadMultiConstants.customIdCapturePreviewViewObjects = customIdCapturePreview
+
+        //Custom Video Player
+        let customVideoPlayer = story.instantiateViewController(withIdentifier: "customVideoPlayer") as? CustomVideoPlayerUIObjects
+        fadMultiConstants.customVideoPlayerObjects = customVideoPlayer
+
+        //Custom SignViewer
+        let customSignViewer = story.instantiateViewController(withIdentifier: "customSignViewer") as? CustomSignViewerUIObjects
+        fadMultiConstants.customSignViewerObjects = customSignViewer
+        
+        fadMultiConstants.imgCompany = UIImage(named: "splash")
         return fadMultiConstants
     }
     
