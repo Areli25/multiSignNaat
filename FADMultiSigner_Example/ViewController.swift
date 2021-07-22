@@ -110,9 +110,6 @@ class ViewController: UIViewController {
         let customConfirm = story.instantiateViewController(withIdentifier: "customConfirm") as? CustomConfirmUIObjects
         fadMultiConstants.customConfirmObjects = customConfirm
 
-        let customScanQR = story.instantiateViewController(withIdentifier: "customScanQR") as? CustomScanQRUIObjects
-        fadMultiConstants.customScanQRObjects = customScanQR
-
         let customSelfiePreview = story.instantiateViewController(withIdentifier: "selfiePreview") as? CustomSelfiePreviewUIObjects
         fadMultiConstants.customSelfiePreviewObjects = customSelfiePreview
 
