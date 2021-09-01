@@ -24,6 +24,9 @@ class ExampleCustomPrivacyViewController: UIViewController {
 }
 
 extension ExampleCustomPrivacyViewController : CustomPrivacyUIObjects {
+    func getPrivacyImgCheck() -> UIImageView {
+        return imgCheck
+    }
 
     
     func getPrivacyBtnContinue() -> UIButton {

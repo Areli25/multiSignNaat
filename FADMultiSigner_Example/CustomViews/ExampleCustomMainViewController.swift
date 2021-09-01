@@ -1,18 +1,18 @@
 //
-//  ExampleCustomVideoPlayerViewController.swift
+//  ExampleCustomMainViewController.swift
 //  FADMultiSignerPod_Example
 //
-//  Created by Daniel Acosta on 19/07/21.
+//  Created by Daniel Acosta on 26/07/21.
 //  Copyright © 2021 CocoaPods. All rights reserved.
 //
 
 import UIKit
 import FADMultiSignerPod
 
-class ExampleCustomVideoPlayerViewController: UIViewController {
-    
-    @IBOutlet weak var btnClose: UIButton!
-    @IBOutlet weak var videoView: UIView!
+class ExampleCustomMainViewController: UIViewController {
+
+    @IBOutlet weak var btnShowURL: UIButton!
+    @IBOutlet weak var btnScanQR: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,13 +33,13 @@ class ExampleCustomVideoPlayerViewController: UIViewController {
     
 }
 
-extension ExampleCustomVideoPlayerViewController : CustomVideoPlayerUIObjects {
-    func getVideoPlayerView() -> UIView {
-        return self.videoView
+extension ExampleCustomMainViewController : CustomMainUIObjects {
+    func getMainShowQRBtn() -> UIButton {
+        return btnScanQR
     }
     
-    func getVideoPlayerBtnClose() -> UIButton {
-        return self.btnClose
+    func getMainShowURLBtn() -> UIButton {
+        return btnShowURL
     }
     
     

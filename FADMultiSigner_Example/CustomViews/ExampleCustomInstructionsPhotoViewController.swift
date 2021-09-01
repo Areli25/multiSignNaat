@@ -23,6 +23,10 @@ class ExampleCustomInstructionsPhotoViewController: UIViewController {
 }
 
 extension ExampleCustomInstructionsPhotoViewController : CustomInstructionsPhotoUIObjects {
+    func getInstructionsPhotoImgAgree() -> UIImageView {
+        return imgAgree
+    }
+    
     func getInstructionsPhotoBtnCaptureFace() -> UIButton {
         return btnContinue
     }

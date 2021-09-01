@@ -15,17 +15,22 @@ class ExampleCustomSignerViewController: UIViewController {
     @IBOutlet weak var btnCheckName: UIButton!
     @IBOutlet weak var btnCancel: UIButton!
     @IBOutlet weak var btnOutValidateCode: UIButton!
+    @IBOutlet weak var imgAgreeOut: UIImageView!
     @IBOutlet weak var txtCode: UITextField!
-    
-    @IBOutlet weak var imgCompany: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        btnCheckName.setImage(UIImage(named: "check_blanco"), for: .normal)
+        btnCheckName.setImage(UIImage(named: "check_completo"), for: .selected)
+        btnOutValidateCode.backgroundColor = .gray
     }
 }
 
 extension ExampleCustomSignerViewController : CustomSignerUIObjects {
+    func getImgAgreeCode() -> UIImageView {
+        return imgAgreeOut
+    }
     
     func getSignerTxtCode() -> UITextField {
         return txtCode

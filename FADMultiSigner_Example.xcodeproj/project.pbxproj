@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E2B8FFE05B845323BEA951DE /* Pods_FADMultiSigner_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2421A19AD8513FEA997AF11F /* Pods_FADMultiSigner_Example.framework */; };
+		E605B7DB26DFF4D500A11086 /* ExampleCustomMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E605B7DA26DFF4D500A11086 /* ExampleCustomMainViewController.swift */; };
+		E605B7DD26DFF4F300A11086 /* ExampleCustomLoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E605B7DC26DFF4F300A11086 /* ExampleCustomLoaderViewController.swift */; };
 		E61C999326AA21E7006CC033 /* CustomViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E61C999226AA21E7006CC033 /* CustomViews.storyboard */; };
 		E61C99A726AA221A006CC033 /* ExampleCustomSignerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61C999526AA220E006CC033 /* ExampleCustomSignerViewController.swift */; };
 		E61C99A826AA221A006CC033 /* ExampleCustomConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61C999626AA220F006CC033 /* ExampleCustomConfirmViewController.swift */; };
@@ -39,6 +41,8 @@
 		05BA342376F05C8C358F5333 /* Pods-FADMultiSigner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FADMultiSigner_Example.release.xcconfig"; path = "Target Support Files/Pods-FADMultiSigner_Example/Pods-FADMultiSigner_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2421A19AD8513FEA997AF11F /* Pods_FADMultiSigner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FADMultiSigner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83440897E8758E146AFEC715 /* Pods-FADMultiSigner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FADMultiSigner_Example.debug.xcconfig"; path = "Target Support Files/Pods-FADMultiSigner_Example/Pods-FADMultiSigner_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E605B7DA26DFF4D500A11086 /* ExampleCustomMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCustomMainViewController.swift; sourceTree = "<group>"; };
+		E605B7DC26DFF4F300A11086 /* ExampleCustomLoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCustomLoaderViewController.swift; sourceTree = "<group>"; };
 		E61C999226AA21E7006CC033 /* CustomViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CustomViews.storyboard; sourceTree = "<group>"; };
 		E61C999526AA220E006CC033 /* ExampleCustomSignerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCustomSignerViewController.swift; sourceTree = "<group>"; };
 		E61C999626AA220F006CC033 /* ExampleCustomConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCustomConfirmViewController.swift; sourceTree = "<group>"; };
@@ -117,7 +121,9 @@
 				E61C999826AA2210006CC033 /* ExampleCustomSignViewerViewController.swift */,
 				E61C999926AA2211006CC033 /* ExampleCustomStepsViewController.swift */,
 				E61C999D26AA2214006CC033 /* ExampleCustomVideoPlayerViewController.swift */,
+				E605B7DA26DFF4D500A11086 /* ExampleCustomMainViewController.swift */,
 				E61C999226AA21E7006CC033 /* CustomViews.storyboard */,
+				E605B7DC26DFF4F300A11086 /* ExampleCustomLoaderViewController.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -296,6 +302,7 @@
 				E61C99AA26AA221A006CC033 /* ExampleCustomSignViewerViewController.swift in Sources */,
 				E61C99AE26AA221A006CC033 /* ExampleCustomPrivacyViewController.swift in Sources */,
 				E61C99B326AA221A006CC033 /* ExampleCustomInstructionsPhotoViewController.swift in Sources */,
+				E605B7DB26DFF4D500A11086 /* ExampleCustomMainViewController.swift in Sources */,
 				E61C99A926AA221A006CC033 /* ExampleCustomInstructionsDocumentViewController.swift in Sources */,
 				E61C99A726AA221A006CC033 /* ExampleCustomSignerViewController.swift in Sources */,
 				E61C99A826AA221A006CC033 /* ExampleCustomConfirmViewController.swift in Sources */,
@@ -309,6 +316,7 @@
 				E61C99B626AA221A006CC033 /* ExampleCustomScrollInstructionsViewController.swift in Sources */,
 				E61C99AC26AA221A006CC033 /* ExampleCustomDocumentViewController.swift in Sources */,
 				E6A02F7E2693CB2100E4ECCA /* AppDelegate.swift in Sources */,
+				E605B7DD26DFF4F300A11086 /* ExampleCustomLoaderViewController.swift in Sources */,
 				E61C99AF26AA221A006CC033 /* ExampleCustomVideoPlayerViewController.swift in Sources */,
 				E61C99AB26AA221A006CC033 /* ExampleCustomStepsViewController.swift in Sources */,
 				E6A02F802693CB2100E4ECCA /* SceneDelegate.swift in Sources */,

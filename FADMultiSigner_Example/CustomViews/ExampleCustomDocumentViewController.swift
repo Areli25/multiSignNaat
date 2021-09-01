@@ -20,6 +20,7 @@ class ExampleCustomDocumentViewController: UIViewController {
     @IBOutlet weak var leftBtn: UIButton!
     @IBOutlet weak var rightBtn: UIButton!
     
+    @IBOutlet weak var imgAgree: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -41,6 +42,10 @@ class ExampleCustomDocumentViewController: UIViewController {
 
 
 extension ExampleCustomDocumentViewController : CustomDocumentUIObjects {
+    func getDocumentImgAgree() -> UIImageView {
+        return imgAgree
+    }
+    
     func getDocumentLeftBtn() -> UIButton {
         return leftBtn
     }

@@ -61,6 +61,7 @@ class ViewController: UIViewController {
             "appId      = com.fad.bio*,com.na-at.fad,com.na_at.fad\n" +
             "expiryDate = 2021-09-10\n" +
             "key        = 00304502203cbf0dd6e48b7515e3a31e4ea983f4cabf8d158397cfa4a94347d93ba16949b80221009542f189a46200203807e9c52d61366b42d3f31b403b82e13ee92f6be30d85c4"
+        
         fadMultiConstants.faceComparisonValue = 55
         
         //Acuant
@@ -75,10 +76,25 @@ class ViewController: UIViewController {
         fadMultiConstants.acOzoneEndpoint = "https://ozone.acuant.net"
         //Comparation ID vs Face
         fadMultiConstants.comparationIDFaceMaxAttempts = 3
+        fadMultiConstants.showDashboard = true
+        
+        fadMultiConstants.isShowPrivacyModule = true
+        fadMultiConstants.isShowAuthenticationModule = true
+        
+        let relatedProcess = FADMultiRelatedProcess()
+        relatedProcess.fadProcessId = "fa8c6d07-12e1-4739-9c48-b7274a9e30b1"
+        relatedProcess.fadProcessType = 1
+        var relatedProcesses:[FADMultiRelatedProcess] = []
+        relatedProcesses.append(relatedProcess)
+        fadMultiConstants.relatedProcesses = relatedProcesses
+
         
         
         //Custom View Controllers
         let story = UIStoryboard(name: "CustomViews", bundle: nil)
+        
+        let mainVC = story.instantiateViewController(withIdentifier: "customMain") as? CustomMainUIObjects
+        fadMultiConstants.customMainObjects = mainVC
         //Signer
         let signerVC = story.instantiateViewController(withIdentifier: "customSigner") as? CustomSignerUIObjects
         fadMultiConstants.customSignerObjects = signerVC
@@ -109,7 +125,10 @@ class ViewController: UIViewController {
 
         let customConfirm = story.instantiateViewController(withIdentifier: "customConfirm") as? CustomConfirmUIObjects
         fadMultiConstants.customConfirmObjects = customConfirm
-
+        
+        let customScanQR = story.instantiateViewController(withIdentifier: "customScanQR") as? CustomScanQRUIObjects
+        fadMultiConstants.customScanQRObjects = customScanQR
+        
         let customSelfiePreview = story.instantiateViewController(withIdentifier: "selfiePreview") as? CustomSelfiePreviewUIObjects
         fadMultiConstants.customSelfiePreviewObjects = customSelfiePreview
 
@@ -123,6 +142,12 @@ class ViewController: UIViewController {
         //Custom SignViewer
         let customSignViewer = story.instantiateViewController(withIdentifier: "customSignViewer") as? CustomSignViewerUIObjects
         fadMultiConstants.customSignViewerObjects = customSignViewer
+
+        fadMultiConstants.primaryColor = .systemBlue
+        
+        //Custom Loader
+        let customLoadingView = story.instantiateViewController(withIdentifier: "customLoadingView") as? CustomLoadingUIObjects
+        fadMultiConstants.customLoaderObjects = customLoadingView
         
         fadMultiConstants.imgCompany = UIImage(named: "splash")
         return fadMultiConstants

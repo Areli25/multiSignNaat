@@ -13,10 +13,6 @@ class ExampleCustomCheckDataViewController: UIViewController {
     
     @IBOutlet weak var btnCancel: UIButton!
     
-    @IBOutlet weak var imgViewSign: UIImageView!
-    @IBOutlet weak var imgViewSignVideo: UIImageView!
-    @IBOutlet weak var imgViewSignAudioVideo: UIImageView!
-    
     @IBOutlet weak var btnShowSign: UIButton!
     @IBOutlet weak var btnPlaySignVideo: UIButton!
     @IBOutlet weak var btnPlaySignAudioVideo: UIButton!
@@ -45,18 +41,6 @@ class ExampleCustomCheckDataViewController: UIViewController {
 extension ExampleCustomCheckDataViewController : CustomCheckDataUIObjects {
     func getCheckVideosCancelBtn() -> UIButton {
         return btnCancel
-    }
-    
-    func getCheckVideosImgSign() -> UIImageView {
-        return imgViewSign
-    }
-    
-    func getCheckVideosImgSignVideo() -> UIImageView {
-        return self.imgViewSignVideo
-    }
-    
-    func getCheckVideosImgSignAudioVideo() -> UIImageView {
-        return self.imgViewSignAudioVideo
     }
     
     func getCheckVideosShowSignBtn() -> UIButton {
