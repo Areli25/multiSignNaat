@@ -13,9 +13,12 @@ class ExampleCustomIdInstructionsViewController: UIViewController {
     
     @IBOutlet weak var btnCancel: UIButton!
     @IBOutlet weak var btnContinue: UIButton!
+    @IBOutlet weak var viewToast: UIView!
+    @IBOutlet weak var lblToast: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.viewToast.isHidden = true
         // Do any additional setup after loading the view.
     }
 }
@@ -27,5 +30,18 @@ extension ExampleCustomIdInstructionsViewController : CustomIdInstructionsUIObje
     
     func getIdInstructionsBtnCancel() -> UIButton {
         return btnCancel
+    }
+    
+    func getToastIdView() -> UIView {
+        return viewToast
+    }
+    
+    func setAttempt(attempt: Int) {
+        print(attempt)
+        lblToast.text = "Tienes \(attempt) intentos mas para validar tu rostro"
+    }
+    
+    func getTimeToast() -> Double {
+        return 2.5
     }
 }

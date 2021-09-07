@@ -10,7 +10,6 @@ import UIKit
 import FADMultiSignerPod
 
 class ExampleCustomIdCapturePreviewViewController: UIViewController {
-    @IBOutlet weak var btnCancel: UIButton!
     @IBOutlet weak var imgPreview: UIImageView!
     @IBOutlet weak var btnRetry: UIButton!
     @IBOutlet weak var btnContine: UIButton!
@@ -22,8 +21,8 @@ class ExampleCustomIdCapturePreviewViewController: UIViewController {
 }
 
 extension ExampleCustomIdCapturePreviewViewController: CustomIdCapturePreviewViewUIObjects{
-    func getIdCapturePreviewCancelBtn() -> UIButton {
-        return btnCancel
+    func setCardSide(isBack: Bool) {
+        print("setCardSide: \(isBack)")
     }
     
     func getIdCapturePreviewRetryBtn() -> UIButton {

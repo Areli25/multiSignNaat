@@ -104,7 +104,7 @@ class ViewController: UIViewController {
 //        //Steps
         let stepsVC = story.instantiateViewController(withIdentifier: "customSteps") as? CustomStepsUIObjects
         fadMultiConstants.customStepsObjects = stepsVC
-
+        
         let idInstructionsVC = story.instantiateViewController(withIdentifier: "customIdInstructions") as? CustomIdInstructionsUIObjects
         fadMultiConstants.customIdInstructionsObjects = idInstructionsVC
 //
@@ -113,13 +113,13 @@ class ViewController: UIViewController {
 
         let instructionsDocumentVC = story.instantiateViewController(withIdentifier: "customInstructionsDocument") as? CustomInstructionsDocumentUIObjects
         fadMultiConstants.customInstructionsDocumentObjects = instructionsDocumentVC
-
+        
         let documentVC = story.instantiateViewController(withIdentifier: "customDocument") as? CustomDocumentUIObjects
         fadMultiConstants.customDocumentObjects = documentVC
-
+        
         let customScrollInstructions = story.instantiateViewController(withIdentifier: "customScrollInstructions") as? CustomScrollInstructionsUIObjects
         fadMultiConstants.customScrollInstructionsObjects = customScrollInstructions
-
+        
         let customCheckData = story.instantiateViewController(withIdentifier: "customCheckData") as? CustomCheckDataUIObjects
         fadMultiConstants.customCheckDataObjects = customCheckData
 
@@ -133,8 +133,8 @@ class ViewController: UIViewController {
         fadMultiConstants.customSelfiePreviewObjects = customSelfiePreview
 
         let customIdCapturePreview = story.instantiateViewController(withIdentifier: "idCapturePreview") as? CustomIdCapturePreviewViewUIObjects
-        fadMultiConstants.customIdCapturePreviewViewObjects = customIdCapturePreview
-
+//        fadMultiConstants.customIdCapturePreviewViewObjects = customIdCapturePreview
+        
         //Custom Video Player
         let customVideoPlayer = story.instantiateViewController(withIdentifier: "customVideoPlayer") as? CustomVideoPlayerUIObjects
         fadMultiConstants.customVideoPlayerObjects = customVideoPlayer
@@ -142,7 +142,11 @@ class ViewController: UIViewController {
         //Custom SignViewer
         let customSignViewer = story.instantiateViewController(withIdentifier: "customSignViewer") as? CustomSignViewerUIObjects
         fadMultiConstants.customSignViewerObjects = customSignViewer
-
+        
+        //Custom FailSelfie
+        let customSelfieFail = story.instantiateViewController(withIdentifier: "customSelfieFail") as? CustomSelfieFailUIObjects
+        fadMultiConstants.customSelfieFailObjects = customSelfieFail
+     
         fadMultiConstants.primaryColor = .systemBlue
         
         //Custom Loader

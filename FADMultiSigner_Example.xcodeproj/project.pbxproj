@@ -35,6 +35,7 @@
 		E6A02F8A2693CB2F00E4ECCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6A02F882693CB2F00E4ECCA /* LaunchScreen.storyboard */; };
 		E6A02FFE2693D28F00E4ECCA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6A02FFD2693D28F00E4ECCA /* GoogleService-Info.plist */; };
 		E6A030052693D2C400E4ECCA /* FaceTec.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6A030072693D2C400E4ECCA /* FaceTec.strings */; };
+		E6D3629826E7CD6C00F510E3 /* ExampleCustomSelfieFailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3629726E7CD6C00F510E3 /* ExampleCustomSelfieFailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		E6A02FFD2693D28F00E4ECCA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E6A030062693D2C400E4ECCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/FaceTec.strings; sourceTree = "<group>"; };
 		E6A030092693D2C800E4ECCA /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/FaceTec.strings; sourceTree = "<group>"; };
+		E6D3629726E7CD6C00F510E3 /* ExampleCustomSelfieFailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCustomSelfieFailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,8 +124,8 @@
 				E61C999926AA2211006CC033 /* ExampleCustomStepsViewController.swift */,
 				E61C999D26AA2214006CC033 /* ExampleCustomVideoPlayerViewController.swift */,
 				E605B7DA26DFF4D500A11086 /* ExampleCustomMainViewController.swift */,
-				E61C999226AA21E7006CC033 /* CustomViews.storyboard */,
 				E605B7DC26DFF4F300A11086 /* ExampleCustomLoaderViewController.swift */,
+				E6D3629726E7CD6C00F510E3 /* ExampleCustomSelfieFailViewController.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -154,6 +156,7 @@
 				E6A02F7D2693CB2100E4ECCA /* AppDelegate.swift */,
 				E6A02F7F2693CB2100E4ECCA /* SceneDelegate.swift */,
 				E6A02F812693CB2100E4ECCA /* ViewController.swift */,
+				E61C999226AA21E7006CC033 /* CustomViews.storyboard */,
 				E6A02F832693CB2100E4ECCA /* Main.storyboard */,
 				E6A02F882693CB2F00E4ECCA /* LaunchScreen.storyboard */,
 				E6A02F8B2693CB2F00E4ECCA /* Info.plist */,
@@ -309,6 +312,7 @@
 				E61C99AD26AA221A006CC033 /* ExampleCustomIdInstructionsViewController.swift in Sources */,
 				E61C99B026AA221A006CC033 /* ExampleCustomIdCapturePreviewViewController.swift in Sources */,
 				E61C99B526AA221A006CC033 /* ExampleCustomScanQRViewController.swift in Sources */,
+				E6D3629826E7CD6C00F510E3 /* ExampleCustomSelfieFailViewController.swift in Sources */,
 				E61C99B726AA221A006CC033 /* ExampleCustomSelfiePreviewViewController.swift in Sources */,
 				E61C99B426AA221A006CC033 /* ExampleCustomConfirmViewCells.swift in Sources */,
 				E61C99B826AA221A006CC033 /* ExampleCustomCheckDataViewController.swift in Sources */,
