@@ -1,7 +1,9 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 source 'https://github.com/CocoaPods/Specs.git'
-source 'https://gitlab.com/na-at_technologies/fadsdk4/nshare/sm/specs.git'
+# Put source here
+source ''
+
 target 'FADMultiSigner_Example' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!

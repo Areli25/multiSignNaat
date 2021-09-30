@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         }, onCancel: {
             print("Cancel")
             self.returnToOriginalViewController()
-        }) {
+        }) {error in
             print("Error")
             self.returnToOriginalViewController()
         }
@@ -88,6 +88,11 @@ class ViewController: UIViewController {
         relatedProcesses.append(relatedProcess)
         fadMultiConstants.relatedProcesses = relatedProcesses
 
+        
+        fadMultiConstants.minSignLength = 7
+        fadMultiConstants.maxSignLength = 15
+        fadMultiConstants.minConfLength = 7
+        fadMultiConstants.maxConfLength = 40
         
         
         //Custom View Controllers
