@@ -10,6 +10,7 @@ target 'FADMultiSigner_Example' do
 
   # Pods for FADMultiSigner_Example
 	pod 'FADMultiSignerPod'
+  
 
 end
 
